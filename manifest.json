@@ -1,0 +1,21 @@
+{
+    "short_name": "football-store",
+    "name": "football-store",
+    "icons": [
+        {
+            "src":"/Assets/icons/bt_add_to_cart.svg",
+            "sizes":"196x196",
+            "type": "image/png"
+        },
+        {
+            "src":"/Assets/icons/bt_added_to_cart.svg",
+            "sizes":"216x216",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#f9d627",
+    "description": "weather forecast information"
+}

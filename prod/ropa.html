@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de fútbol</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img class="menu" src="./Assets/icons/icon_menu.svg" alt="menu" />
+      <div class="navbar-left">
+        
+        <ul>
+          <li>
+            <a href="../index.html">Todo</a>
+          </li>
+          
+          <li>
+            <a href="./botas.html">Calzado</a>
+          </li>
+          <li>
+            <a href="../info.html">INFORMACION</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email">Usuario</li>
+          <li class="navbar-shopping-cart">
+            <img
+              src="./Assets/icons/icon_shopping_cart.svg"
+              alt="shopping cart"
+            />
+            <div>2</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="desktop-menu inactive">
+        <ul>
+          <li>
+            <a href="/" class="title">Mi carrito</a>
+          </li>
+          <li>
+            <a href="/">Mi cuenta</a>
+          </li>
+          <li>
+            <a href="/">Sign out</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu inactive">
+        <ul class="categories-list">
+          <li>
+            <a href="/">Categorias</a>
+          </li>
+          <li>
+            <a href="/">Todo</a>
+          </li>
+          <li>
+            <a href="/">Ropa</a>
+          </li>
+          <li>
+            <a href="/">Calzado</a>
+          </li>
+         
+        </ul>
+
+        <ul class="user-list">
+          <li>
+            <a href="/">Mi carrito</a>
+          </li>
+          <li>
+            <a href="/">Mi cuenta</a>
+          </li>
+        </ul>
+
+        <ul class="user-list2">
+          <li>
+            <a href="/" id="email">trabajouta@gmail.com</a>
+          </li>
+          <li>
+            <a href="/" id="sign-out">Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <aside id="shoppingCartContainer" class="inactive">
+      <div class="title-container">
+        <img src="./Assets/icons/flechita.svg" alt="" />
+        <p class="title">Mi carrito</p>
+      </div>
+
+      <div class="my-order-content">
+        <div class="shopping-cart">
+          <figure>
+            <img src="./Assets/boots-2.jpg" alt="Nike boots" />
+          </figure>
+          <p>Sudadera Nike</p>
+          <p>$15 </p>
+          <img src="./Assets/icons/icon_close.png" alt="close" />
+        </div>
+        <div class="shopping-cart">
+          <figure>
+            <img src="./Assets/boots-1.jpg" alt="NB boots" />
+          </figure>
+          <p>Conjunto deportivo Nike</p>
+          <p>$40</p>
+          <img src="./Assets/icons/icon_close.png" alt="close" />
+        </div>
+        <div class="shopping-cart">
+          <figure>
+            <img src="./Assets/boots.jpg" alt="Adidas boots" />
+          </figure>
+          <p>Chamarra reflectante</p>
+          <p>$32</p>
+          <img src="./Assets/icons/icon_close.png" alt="close" />
+        </div>
+        <div class="order">
+          <p>
+            <span>Total</span>
+          </p>
+          <p>$145</p>
+        </div>
+
+        <button class="primary-button">Checkout</button>
+      </div>
+    </aside>
+
+    <aside id="productDetail" class="inactive">
+      <div class="product-detail-close">
+        
+      </div>
+      
+      <div class="product-info">
+        
+        <p>Ropa deportivo</p>
+        <p>
+          Este modelo esta relacionado con la temporada 2021-2022
+        </p>
+        <button class="primary-button add-to-cart-button">
+          
+          Add to cart
+        </button>
+      </div>
+    </aside>
+
+    <section class="main-container">
+      <div class="cards-container"></div>
+    </section>
+
+    <footer>
+      <div>
+        <p>
+          Sitio web hecho por
+          <a>Efrain, Emilio, Juan</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
